@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class HelloControler {
-	@GetMapping("/hello")
+	@GetMapping("hello")
 	private String sayHi() {
 		return "hey THERE";
 	}
-	@RequestMapping("/hi")
+	@RequestMapping("hi")
 	private String sayHiThere() {
 		return "hey THERE";
 	}
